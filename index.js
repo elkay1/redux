@@ -8,5 +8,5 @@ app.get("/", (req, res) => {
 });
 
 app.listen(PORT, function() {
-  console.log("Your server is open on port " + port);
+  console.log("Your server is open on port " + PORT);
 });
